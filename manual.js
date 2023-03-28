@@ -1,4 +1,4 @@
-// Open your js console and copy paste theses functions below
+// When you are connected to your iquiz session, open your js console in your webbrowser (might be ctrl+maj+i or f12) and copy paste theses functions below
 function jeSuisPerdu(nb, time) {
 
     var rep=0;
