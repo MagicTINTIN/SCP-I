@@ -1,6 +1,7 @@
 # Simple Client Pour Iquiz (SCP I)
 C'est juste un client pour Iquiz, rien de plus
 
+Open your web browser, connect to your iquiz session and start the js console (by pressing ctrl+maj+i or f12)
 
 Now you can just type jeSuisPerdu(10, 4500) to send 10 times "Je suis perdu" in 4,5 seconds
 If you want you can use sinPerdu(Math.sin,10,0.8,5, 30) to create a beautiful wave of lost students between 5 and 15 students each minute during 30 minutes
