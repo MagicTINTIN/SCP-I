@@ -1,4 +1,5 @@
 // When you are connected to your iquiz session, open your js console in your webbrowser (might be ctrl+maj+i or f12) and copy paste theses functions below
+// v - v - v - v - v
 function jeSuisPerdu(nb, time) {
 
     var rep = 0;
@@ -11,7 +12,7 @@ function jeSuisPerdu(nb, time) {
     }, time / nb);
 }
 
-//answers = [2,4] pour répondre aux questions 2 et 4
+//answers = [2,4] to answer to the question with the answers 2 and 4
 function jeReponds(nb, time, answers) {
 
     var rep = 0;
@@ -24,7 +25,7 @@ function jeReponds(nb, time, answers) {
     }, time / nb);
 }
 
-// pour faire des courbes sur le grphique des perdus
+// to plot functions on "Je suis pardu" graph (only visible by the host)
 function fctPerdu(fct, offset, xmulti, ymulti, maxsteps) {
     jeSuisPerdu(offset + offset / 2 * Math.sin(0), 45000);
     var rep = 1;
@@ -40,7 +41,7 @@ function fctPerdu(fct, offset, xmulti, ymulti, maxsteps) {
 //////////////////// End of functions \\\\\\\\\\\\\\\\\\\\ 
 /*
  * Now you can just type jeSuisPerdu(10, 4500) to send 10 times "Je suis perdu" in 4,5 seconds
- * If you want you can use sinPerdu(Math.sin,10,0.8,5, 30) to create a beautiful wave of lost students between 5 and 15 students each minute during 30 minutes
+ * If you want you can use jeSuisPerdu(Math.sin,10,0.8,5, 30) to create a beautiful wave of lost students between 5 and 15 students each minute during 30 minutes
  * 
  * You can also type jeReponds(35, 5000, [3]) to send 35 answer 3 in 5 seconds
  * If you want to answer multiple answer like 1 and 3, just type jeReponds(35, 5000, [1,3])
